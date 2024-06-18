@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00008B; /* Dark Blue Background */
+    color: #fff; /* White Text */
+}
+
+header {
+    background-color: #1e1e1e;
+    color: #39ff14; /* Neon Green */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px #000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #39ff14; /* Neon Green */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 0 5px #39ff14;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #ff69b4; /* Neon Pink */
+    font-size: 2rem;
+    text-shadow: 0 0 5px #ff69b4;
+}
+
+p {
+    color: #adff2f; /* Neon Yellow-Green */
+    font-size: 1.2rem;
+    text-shadow: 0 0 5px #adff2f;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #39ff14; /* Neon Green */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 2px -2px #000;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.downloads {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.download-item {
+    background-color: #1e1e1e;
+    border: 2px solid #39ff14;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+.download-item a {
+    color: #ff69b4; /* Neon Pink */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.download-item a:hover {
+    text-shadow: 0 0 5px #ff69b4;
+}
